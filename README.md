@@ -12,6 +12,16 @@ Each file corresponds to one of the three experiments, which are 1. acoustic onl
 
 Then add the notebooks in the 'Modelling' folder and run them.
 
+To look at the code for the third research question, stored in 'RQ3_PD_Speech_Generalization.ipynb', first  obtain the Italian speech dataset from HuggingFace: https://huggingface.co/datasets/birgermoell/Italian_Parkinsons_Voice_and_Speech
+Download the folder italian_parkinson containing:
 
-@Enes ToDo
-stuur je notebooks en laat weten hoe je ze kan runnen.
+/PD/... → Parkinson speakers
+/Healthy/... → Healthy controls
+Extract the .wav files locally and place them in a folder named:
+
+/data/Italian_Healthy
+/data/Italian_PD
+Also make sure you include an English test set (the UCI Parkinson dataset, structured similarly:
+
+/data/English_Healthy
+/data/English_PD
